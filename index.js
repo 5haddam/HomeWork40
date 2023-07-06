@@ -122,10 +122,10 @@ class Category {
     this.category = categoryAndProducts.category;
     this.products = categoryAndProducts.products;
     this.createElements();
-    this.renderCategoreyes();
+    this.renderCategories();
     this.attachEventHandlers();
   }
-  renderCategoreyes() {
+  renderCategories() {
     this.p.innerText = this.category;
     this.categories.append(this.p);
   }
